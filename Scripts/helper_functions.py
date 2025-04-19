@@ -2,7 +2,7 @@ import logging
 import os
 
 # Define log file path
-LOG_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Logs"
+LOG_PATH = r"C:\Users\Admin\Documents\1BM22AI005 MLOPs\Practicals\MLOPs---Pipeline\Logs"
 os.makedirs(LOG_PATH, exist_ok=True)
 LOG_FILE = os.path.join(LOG_PATH, "mlops_training.log")
 

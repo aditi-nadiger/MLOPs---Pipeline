@@ -5,8 +5,9 @@ import os
 from helper_functions import log_info, log_error
 
 # Define paths
-ARTIFACTS_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Artifacts"
-DATA_OUTPUT_PATH = "D:/MLOPS-2025-DSC/mlops2025-DSC/Data/output"
+ARTIFACTS_PATH = r"C:\Users\Admin\Documents\1BM22AI005 MLOPs\Practicals\MLOPs---Pipeline\Artifacts"
+
+DATA_OUTPUT_PATH = r"C:\Users\Admin\Documents\1BM22AI005 MLOPs\Practicals\MLOPs---Pipeline\data\output"
 os.makedirs(DATA_OUTPUT_PATH, exist_ok=True)
 MODEL_PATH = os.path.join(ARTIFACTS_PATH, "best_classifier.pkl")
 PIPELINE_PATH = os.path.join(ARTIFACTS_PATH, "data_processing_pipeline.pkl")
